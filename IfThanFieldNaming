@@ -1,0 +1,10 @@
+FeatureName=reclass(structure)
+ def reclass(!structure!):
+  if(structure=="Catch Basin")
+    return "Inlet"
+  elif(structure=="Curb Inlet")
+    return "Inlet"
+  elif (structure== "Manhole")
+    return "Junction"
+  elif (structure== "Headwall")
+    return "Headwall"
